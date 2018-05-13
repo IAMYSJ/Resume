@@ -1,0 +1,211 @@
+/* Default CSS
+   ========================================================================== */
+html {
+    font-family: 'Microsoft YaHei', 'helvetica neue', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    height: 100%;
+}
+
+hr {
+    margin: 0;
+}
+
+h2 {
+    background: #333333;
+    color: white;
+    margin-top: 0;
+    padding: 40px;
+    font-size: 150%;
+}
+
+a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+blockquote {
+    margin-left: 40px;
+    border-left: 5px solid brown;
+}
+
+/* Sidebar CSS
+   ========================================================================== */
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    box-shadow: 1px 0px 5px #333;
+}
+
+.sidebar div:nth-child(1) {
+    background: #f0f0f0;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.sidebar div:not(:first-child) {
+    cursor: pointer;
+    padding: 10px; 
+}
+
+.sidebar div:nth-child(3):hover {
+    transition: border-left 0.5s;
+    border-left: 5px solid red;
+    background: #f0f0f0;
+}
+
+.sidebar div:nth-child(4):hover {
+    transition: border-left 0.5s;
+    border-left: 5px solid orange;
+    background: #f0f0f0;
+}
+
+.sidebar div:nth-child(5):hover {
+    transition: border-left 0.5s;
+    border-left: 5px solid yellow;
+    background: #f0f0f0;
+}
+
+.sidebar div:nth-child(6):hover {
+    transition: border-left 0.5s;
+    border-left: 5px solid green;
+    background: #f0f0f0;
+}
+
+.sidebar div:nth-child(7):hover {
+    transition: border-left 0.5s;
+    border-left: 5px solid blue;
+    background: #f0f0f0;
+}
+
+.sidebar div:nth-child(8):hover {
+    transition: border-left 0.5s;
+    border-left: 5px solid indigo;
+    background: #f0f0f0;
+}
+
+.sidebar div:nth-child(9):hover {
+    transition: border-left 0.5s;
+    border-left: 5px solid purple;
+    background: #f0f0f0;
+}
+
+/* Content CSS
+   ========================================================================== */
+
+.content {
+    margin-left: 180px;
+}
+
+
+.intro p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.card p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.card hr {
+    margin-right: 10px;
+    margin-left: 10px;
+    background: #ddd;
+}
+
+.card {
+    margin: 50px 180px 50px 180px;
+    border: 1px solid #333;
+    box-shadow: 2px 2px 2px #333;
+}
+
+.card .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px 40px 10px 40px;
+}
+
+.card .card-footer {
+    background: #fafafa;
+}
+
+.section {
+    /* height: 704px; */
+}
+
+/* Section1 */
+.section1 {
+    background-image: url("../img/ysj.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1 p {
+    margin: 0;
+    padding: 10px;
+    color: white;
+    font-size: 200%;
+    text-shadow: 10px 10px 5px #333;
+}
+
+/* Section2 */
+.section2 blockquote {
+    padding-left: 20px;
+}
+
+/* Section4 */
+.section4 .card-body {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section4 .card-body .skill {
+    width: 100px;
+    height: 100px;
+}
+
+.section4 .card-body .skill>img {
+    width: 80%;
+    height: 80%;
+}
+
+/* Section5 */
+.section5 ul li div {
+    border: 1px solid black;
+}
+
+/* font style
+   ========================================================================== */
+.font-italic {
+    font-style: italic;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-grey {
+    color: grey;
+}
