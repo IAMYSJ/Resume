@@ -111,7 +111,6 @@ blockquote {
     margin-left: 180px;
 }
 
-
 .intro p {
     padding-left: 40px;
     padding-right: 40px;
@@ -134,14 +133,14 @@ blockquote {
     box-shadow: 2px 2px 2px #333;
 }
 
-.card .card-top {
+.card-top {
     display: flex;
     justify-content: space-between;
     align-content: center;
     padding: 10px 40px 10px 40px;
 }
 
-.card .card-footer {
+.card-footer {
     background: #fafafa;
 }
 
@@ -172,6 +171,11 @@ blockquote {
     padding-left: 20px;
 }
 
+/* Section3 */
+.section3 {
+    height: 100vh;
+}
+
 /* Section4 */
 .section4 .card-body {
     text-align: center;
@@ -181,19 +185,37 @@ blockquote {
     padding-bottom: 10px;
 }
 
-.section4 .card-body .skill {
+.card-body .skill {
     width: 100px;
     height: 100px;
 }
 
-.section4 .card-body .skill>img {
+.card-body .skill>img {
     width: 80%;
     height: 80%;
 }
 
 /* Section5 */
-.section5 ul li div {
-    border: 1px solid black;
+.section5  {
+    height: 100vh;
+}
+
+.section5 .education {
+    margin-left: 100px;
+}
+
+/* Section6 */
+.section6 {
+    height: 100vh;
+}
+
+.section6 .contact {
+    margin-left: 100px;
+}
+
+/* Section7 */
+.section7 {
+    height: 100vh;
 }
 
 /* font style
